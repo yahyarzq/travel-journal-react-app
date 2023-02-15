@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+}
+
+.App-header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F55A5A;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-header > h3 {
+    margin: 0px 10px;
+}
+
+.App-body {
+    display: flex;
+    flex-direction: row;
+}
+.app-card {
+    display: flex;
+    flex-direction: row;
+    height: 246px;
+    margin: 20px;
+
+}
+
+.card-details {
+    margin-left: 30px;
+}
+
+.card-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-location-place {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.card-location > p {
+    margin: 0px 8px;
+}
